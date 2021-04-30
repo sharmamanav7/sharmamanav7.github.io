@@ -1,0 +1,42 @@
+
+  @keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+  body{
+      background-color: wheat;
+  }
+ .spinner{
+    height: 100px;
+   margin:auto;
+    animation: 2s spin linear infinite;
+    display:none;
+ }
+
+ .show{
+     display: block;
+ }
+ .disappear{
+     display: none;
+ }
+
+.header{
+    background-color: coral;
+    padding:2rem;
+    margin-bottom: 2rem;
+}
+h1{
+    display: inline;
+}
+select{
+    display: block;
+    float: right;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px;
+}
+img{
+    display: block;
+    margin:auto;
+}

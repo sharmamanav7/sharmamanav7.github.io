@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg);
+	
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row wrap;
+	background-color: orange;
+}
+p,[for="abtype"] {
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+li{
+	list-style-type: none;
+}
+fieldset{
+	border: 1px black solid;
+	border-radius: 10px;
+}
+legend{
+	font-weight: bold;
+	margin: 1.5rem 0;
+	font-size: 1.3rem;
+}
+label{
+	display: block;
+}
+textarea{
+	height: 10rem;
+	border-radius: 10px;
+
+}
+select{
+	font-size: 1rem;
+	border-radius: 10px;
+	cursor: pointer;
+	margin:1rem 0;
+}
+button{
+	margin: 1rem 0;
+	border: none;
+	padding: 1rem;
+	color: black;
+	background-color: white;
+	font-size: 1rem;
+	border-radius: 10px;
+}
+button:hover{	
+	color: white;
+	background-color: black;
+	cursor: pointer;
+	
+}
+input:not([type="radio"]):not([type="checkbox"]){
+	display: block;
+	width: 20rem;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	border-radius: 10px;
+	padding: 0 1rem;
+	border: red solid 3px;
+}
+
+
+
+
+
+
+
