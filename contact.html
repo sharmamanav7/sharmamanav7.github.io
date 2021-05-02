@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="./contact_style.css" rel="stylesheet"> 
+    <title>Contact Us</title>
+</head>
+<body>
+    <form method="POST" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES">
+        <input type="hidden"  name="send_to" value="sharmamanavcool@gmail.com">
+    <div class="header_container">
+        <header><img id="logo" src="./my_logo.png">
+            <nav>
+                <ul><a href="./index.html">Back to Main page</a></ul>
+        
+            </nav> 
+        </header>
+
+        </div>
+    <div class="container">
+        <fieldset>
+            <legend>Your Contact Information</legend>
+            <input class="input"    id="name" type="text" name="name" autofocus  placeholder="Your Name">
+            <input class="input"    id="email" type="email" name="email" placeholder="E-mail Address">
+            <input class="input"    id="tel" type="tel" name="tel" placeholder="Mobile">
+            <textarea class="input" id="feedback" name="feedback" placeholder="Your Feedback"></textarea>
+            <button type="submit" class="input submit">Send Feedback</button>
+        </fieldset>
+    </div>
+    <footer>
+        Thanks for Visiting :)
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="./contact.js"></script>
+</body>
+</html>

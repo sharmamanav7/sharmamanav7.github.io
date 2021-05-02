@@ -1,0 +1,60 @@
+#logo{
+    max-height: 100px;
+    padding-left: 25px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height:100px;
+    position: fixed;
+    width: 100%;
+    z-index:100;
+    top: 0;
+    font-size: 40px;
+    background-color:wheat;
+}
+ul{
+    font-family: 'Caveat', cursive;
+    padding-right: 20px;
+}
+.container{
+    background-image: url(./contact_us.jpg) ;
+    
+    font-size:24px;
+    padding: 25px;
+    margin-top: 100px;
+  
+}
+.input{
+    display: block;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    width: 30%;
+}
+.submit{
+    background-color: violet;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: peru;
+}
+footer{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    padding-top: 20px;
+    height: 100px;
+    background-color: wheat;
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+}
+legend{
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 40px;
+}
