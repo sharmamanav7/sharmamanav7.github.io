@@ -14,8 +14,11 @@ body{
     margin-top: 100px;
   
 }
+nav li{
+    display: inline-block;
+}
 ul{
-    font-family: 'Courgette', cursive;
+    font-family: 'Satisfy', cursive;
     padding-right: 20px;
 }
 .parallax {

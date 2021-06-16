@@ -1,0 +1,22 @@
+.buttons{
+    display: block;
+    width: 70%;
+    height: 10%;
+    padding:20px;
+    position: relative;
+    background-color: #deb887;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.buttons:hover {
+    cursor: pointer;
+
+}
+.text{
+    position: inherit;
+    font-family: cursive;
+}
+.blog_buttons{
+    margin-top: 120px;
+}
