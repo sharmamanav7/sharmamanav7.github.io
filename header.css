@@ -1,0 +1,31 @@
+#logo{
+    max-height: 100px;
+    padding-left: 25px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 30px;
+}
+ul{
+    font-family: 'Satisfy', cursive;
+    padding-right: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height:100px;
+    position: fixed;
+    width: 100%;
+    z-index:100;
+    top: 0;
+    font-size: 40px;
+    background-color:wheat;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+a:hover{
+    color:orange;
+}
