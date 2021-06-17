@@ -39,7 +39,8 @@ li{
 }
 .call_by_val{
     margin:10px;
+    max-width: 28%;
 } 
 img{
-    max-width:90%;
+    max-width: 90%;
 }

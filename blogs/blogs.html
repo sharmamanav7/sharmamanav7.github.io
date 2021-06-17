@@ -7,11 +7,13 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="./../header.css" rel="stylesheet"/>
     <link href="./styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <div class="header_container">
+  <!--  <div class="header_container">
         <header><img id="logo" src="./../my_logo.png">
             <nav>
                 <ul>
@@ -21,8 +23,10 @@
         
             </nav> 
         </header>
-        
         </div>
+      -->  
+        <div id="nav-placeholder">
+          </div>
         <div class="blog_title">Pointers</div>
     <div class="blog_area"><p>
      Pointers are variables in programming languages that store the memory location of another variable.         
@@ -67,8 +71,8 @@ viewBox="0 0 172 172"
 style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-width="1"></path><path d="" fill="none" stroke="none" stroke-width="1"></path><path d="" fill="none" stroke="none" stroke-width="1"></path><g fill="#000000" stroke="none" stroke-width="1"><path d="M17.2,17.2c-7.58864,0 -13.76,6.17136 -13.76,13.76v110.08c0,7.58864 6.17136,13.76 13.76,13.76h3.44v3.44h17.2v-3.44h96.32v3.44h17.2v-3.44h3.44c7.58864,0 13.76,-6.17136 13.76,-13.76v-110.08c0,-7.58864 -6.17136,-13.76 -13.76,-13.76zM96.32,24.08h20.64v0.02016c0.47472,0 0.95374,0.07595 1.3975,0.27547l30.96,14.96266c1.24528,0.55384 2.0425,1.78557 2.0425,3.14437v12.54391c-2.45272,-5.1256 -4.386,-8.97184 -6.88,-10.30656l-27.52,-13.76v110.08l27.52,-13.76c1.8748,-1.04232 3.79776,-4.3201 6.88,-10.62906v12.86641c0,1.36224 -0.79722,2.59053 -2.0425,3.14437l-30.96,14.96265c-0.4472,0.19608 -0.92278,0.29563 -1.3975,0.29563h-20.64v-10.32h-72.24c-1.89888,0 -3.44,-1.53768 -3.44,-3.44v-96.32c0,-1.89888 1.54112,-3.44 3.44,-3.44h72.24zM27.52,41.28v89.44h68.8v-89.44zM141.04,51.6c0.11352,0 0.25176,0.08788 0.40313,0.20828c0.03784,0.03096 0.07294,0.05622 0.11422,0.09406c0.15136,0.14104 0.31831,0.32701 0.49719,0.56437c0.03784,0.04816 0.07638,0.11293 0.11422,0.16797c0.15136,0.2064 0.31191,0.44403 0.47703,0.70547c0.0688,0.11008 0.13604,0.21898 0.20828,0.33594c0.1892,0.31304 0.38829,0.64989 0.59125,1.01453c0.09976,0.17888 0.20258,0.36845 0.30234,0.55765c0.12384,0.23392 0.24897,0.47122 0.37625,0.7189c0.11696,0.2236 0.2357,0.45123 0.3561,0.69203c1.40008,2.7692 2.93985,6.2127 4.21265,9.1711c-5.00864,1.73032 -7.65265,8.58721 -7.65265,20.16969c0,11.49992 2.61203,18.33385 7.55187,20.12265c-1.25904,2.82768 -2.75995,6.09412 -4.11187,8.80828c-0.1892,0.38184 -0.37533,0.74756 -0.55765,1.10188c-0.02408,0.04472 -0.04983,0.08965 -0.07391,0.13437c-0.2752,0.5332 -0.53497,1.02405 -0.78609,1.47813c-0.1032,0.18576 -0.21274,0.37222 -0.30906,0.54422c-0.09632,0.16856 -0.18259,0.32567 -0.27547,0.47703c-0.16512,0.27176 -0.32583,0.52578 -0.47031,0.73906c-0.04472,0.0688 -0.08966,0.1262 -0.13437,0.18812c-0.14104,0.19952 -0.26601,0.35647 -0.38297,0.48375c-0.03784,0.04128 -0.07638,0.07982 -0.11422,0.11422c-0.12728,0.1204 -0.2465,0.20828 -0.33594,0.20828c-3.8012,0 -6.88,-15.40088 -6.88,-34.4c0,-18.99912 3.0788,-34.4 6.88,-34.4zM106.64,68.8c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44zM151.36,72.24c1.89888,0 3.44,6.16104 3.44,13.76c0,7.59896 -1.54112,13.76 -3.44,13.76c-1.89888,0 -3.44,-6.16104 -3.44,-13.76c0,-7.59896 1.54112,-13.76 3.44,-13.76zM106.64,82.56c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44zM106.64,96.32c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44z"></path></g><g fill="#cccccc" stroke="none" stroke-width="1"><path d="M98.06,68.94v5.27c-3.66,4.28 -6.15667,8.27333 -7.49,11.98c-1.34,3.7 -2.29667,8.16667 -2.87,13.4v0l-0.33,3.47h-6.85l0.33,-3.47c0.53333,-5.01333 1.67333,-9.62 3.42,-13.82c1.75333,-4.19333 4.15333,-8.04667 7.2,-11.56v0h-12.02l-0.26,3.37h-5.25v-8.64z"></path></g><path d="M63.94,113.06v-54.12h44.12v54.12z" fill="#ff0000" stroke="#50e3c2" stroke-width="3" opacity="0"></path></g></g></svg>
 <div class="code_block"><img src="./call_by_value_code.png"/></div>
 <div class="code_block"><img src="./call_by_value_output.png"/>  </div>
-
-
+<script src="./jquery-1.6.2.min.js"></script>
+<script src="./../nav.js"></script>
     </div>
 
 </body>
