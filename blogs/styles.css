@@ -40,3 +40,6 @@ li{
 .call_by_val{
     margin:10px;
 } 
+img{
+    max-width:80%;
+}
