@@ -2,40 +2,20 @@ body{
     margin: 0;
     padding: 0;
 }
-
-#logo{
-    max-height: 100px;
-    padding-left: 25px;
+#nav-placeholder{
+    margin-bottom: 100px;
 }
-.container{
+.main_container{
     background-color: #f9f9f9;
     font-size:24px;
     padding: 25px;
-    margin-top: 100px;
   
 }
-nav li{
-    display: inline-block;
-}
-ul{
-    font-family: 'Satisfy', cursive;
-    padding-right: 20px;
-}
+
 .parallax {
     min-height: 1200px;
     background: transparent ;
 
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    height:100px;
-    position: fixed;
-    width: 100%;
-    z-index:100;
-    top: 0;
-    font-size: 40px;
-    background-color:wheat;
 }
 .intro{
     font-family: 'Satisfy', cursive;
@@ -51,7 +31,6 @@ a:hover{
 }
 .project_container{
     display: flex;
-  
 }
 .project{
     flex-basis: 50%;
