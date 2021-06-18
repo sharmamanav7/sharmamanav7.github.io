@@ -10,7 +10,7 @@ body{
 }
 .main_container{
     background-color: #f9f9f9;
-    font-size:24px;
+    font-size:x-large;
     padding: 25px;
   
 }
@@ -50,7 +50,7 @@ body{
     color: ivory;
     font-family: 'Caveat', cursive;
     text-align: center;
-    font-size: large;
+    font-size: xxx-large;
     padding: 0;
     margin: 0;
 
@@ -59,17 +59,17 @@ body{
     padding-left: 20px;
     color: ivory;
     font-family: 'Caveat', cursive;
-    font-size: medium;
+    font-size: xx-large;
 }
 .web_technology{
     
     font-family: 'Knewave', cursive;
     text-align: center;
-    font-size: larger;
+    font-size: xxx-large;
 }
 footer{
     text-align: center;
-    font-size: 50px;
+    font-size: xxx-large;
     font-family: 'Caveat', cursive;
     padding: 20px;
     margin-bottom: 20px;
