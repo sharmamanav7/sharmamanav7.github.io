@@ -24,13 +24,6 @@ body{
     word-spacing: 8px;
     line-height: 1.6;
 }
-a{
-    text-decoration: none;
-    color: green;
-}
-a:hover{
-    color:orange;
-}
 .project_container{
     display: flex;
 }
@@ -58,7 +51,7 @@ a:hover{
     margin: 0;
 
 }
-.content {
+.content{
     padding-left: 20px;
     color: ivory;
     font-family: 'Caveat', cursive;
